@@ -359,8 +359,8 @@ body{
                         #fader_first, #fader_second{
                             height: 1vw;
                             &::-webkit-slider-thumb{
-                                width: 3vw;
-                                height: 3vw;
+                                width: 4vw;
+                                height: 4vw;
                             }
                         }
                     }
@@ -373,9 +373,12 @@ body{
             }
             .controll_power{
                 position: absolute;
-                top: 27vh;
+                top: 30vh;
                 height: 20%;
                 input[type="checkbox"]{
+                    position: relative;
+                    top: 20%;
+                    left: 50%;
                     &::after{
                         display: none;
                     }

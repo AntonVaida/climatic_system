@@ -344,16 +344,21 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     height: 1vw;
   }
   body .controll .controll_block .slider .slider_slider #fader_first::-webkit-slider-thumb, body .controll .controll_block .slider .slider_slider #fader_second::-webkit-slider-thumb {
-    width: 3vw;
-    height: 3vw;
+    width: 4vw;
+    height: 4vw;
   }
   body .controll .controll_block .slider_two .slider_title {
     margin: 14% auto 0 auto;
   }
   body .controll .controll_power {
     position: absolute;
-    top: 27vh;
+    top: 30vh;
     height: 20%;
+  }
+  body .controll .controll_power input[type=checkbox] {
+    position: relative;
+    top: 20%;
+    left: 50%;
   }
   body .controll .controll_power input[type=checkbox]::after {
     display: none;

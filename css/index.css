@@ -352,8 +352,8 @@ body .controll .controll_power input:checked[type=checkbox]::before {
   }
   body .controll .controll_power {
     position: absolute;
-    top: 15vh;
-    height: 40%;
+    top: 27vh;
+    height: 20%;
   }
   body .controll .controll_power input[type=checkbox]::after {
     display: none;

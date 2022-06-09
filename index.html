@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html lang = eng>
+    <head>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="field">
+            <div class="chart">
+               <canvas id="myChart"></canvas>
+               <canvas id="Petro"></canvas>
+            </div>
+        </div>
+        <div class="controll">
+            <div class="controll_block">
+                <div class="title">Setting</div>
+                <div class="slider slider_one">
+                    <div class="slider_title">Temperature</div>
+                    <div class="slider_slider">
+                        <output id="volume" for="fader_first">0</output>
+                        <input type="range" id="fader_first" min="0" max="30" value="0" step="1" oninput="getPlace(value)">
+                    </div>
+                </div>
+                <div class="slider slider_two">
+                    <div class="slider_title">Power</div>
+                    <div class="slider_slider">
+                        <output id="volume_second" for="fader_second">0</output>
+                        <input type="range" id="fader_second" min="0" max="100" value="0" step="1" oninput="getPlaceSecond(value)">
+                    </div>
+                </div>
+            </div>
+            <div class="controll_power">
+                <input type="checkbox">
+            </div>
+        </div>
+    </body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
+<script src="./js/index.js"></script>

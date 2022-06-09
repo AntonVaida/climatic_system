@@ -3,6 +3,7 @@ body {
   display: block;
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 body .field {
   display: block;
@@ -175,6 +176,9 @@ body .controll .controll_power input:checked[type=checkbox]::before {
 }
 
 @media (max-width: 913px) {
+  body {
+    overflow: hidden;
+  }
   body .field {
     display: block;
     height: 100vh;
@@ -264,6 +268,9 @@ body .controll .controll_power input:checked[type=checkbox]::before {
   }
 }
 @media (max-width: 415px) {
+  body {
+    overflow: hidden;
+  }
   body .field {
     display: block;
     height: 100vh;
@@ -277,20 +284,20 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     top: 30%;
     left: 7vw;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 70%;
     background: #FFFFFF;
     border-radius: 3%;
   }
   body .controll {
-    height: 40%;
+    height: 45%;
     width: 100%;
-    top: 60%;
+    top: 55%;
     left: 0%;
     border-radius: 2vw 2vw 0vw 0%;
   }
   body .controll .controll_block {
     width: 100%;
-    height: 75%;
+    height: 60%;
     padding: 5% 0;
   }
   body .controll .controll_block .title {
@@ -319,7 +326,7 @@ body .controll .controll_power input:checked[type=checkbox]::before {
   }
   body .controll .controll_block .slider .slider_slider {
     width: 66%;
-    height: 4%;
+    height: 15%;
     margin: 0.3% auto 0 auto;
     line-height: 100%;
     position: absolute;
@@ -333,7 +340,7 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     font-size: 1.5vh;
   }
   body .controll .controll_block .slider .slider_slider #fader_first, body .controll .controll_block .slider .slider_slider #fader_second {
-    height: 0.1vw;
+    height: 1vw;
   }
   body .controll .controll_block .slider .slider_slider #fader_first::-webkit-slider-thumb, body .controll .controll_block .slider .slider_slider #fader_second::-webkit-slider-thumb {
     width: 3vw;
@@ -343,7 +350,7 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     margin: 14% auto 0 auto;
   }
   body .controll .controll_power {
-    height: 30%;
+    height: 40%;
   }
   body .controll .controll_power input[type=checkbox]::after {
     display: none;

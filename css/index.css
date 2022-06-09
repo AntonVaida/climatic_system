@@ -281,7 +281,7 @@ body .controll .controll_power input:checked[type=checkbox]::before {
   }
   body .field .chart {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 7vw;
     transform: translate(-50%, -50%);
     width: 70%;
@@ -289,11 +289,12 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     border-radius: 3%;
   }
   body .controll {
-    height: 45%;
+    height: 100%;
     width: 100%;
     top: 55%;
     left: 0%;
     border-radius: 2vw 2vw 0vw 0%;
+    position: absolute;
   }
   body .controll .controll_block {
     width: 100%;
@@ -350,6 +351,8 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     margin: 14% auto 0 auto;
   }
   body .controll .controll_power {
+    position: absolute;
+    top: 15vh;
     height: 40%;
   }
   body .controll .controll_power input[type=checkbox]::after {

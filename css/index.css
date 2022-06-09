@@ -315,12 +315,12 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     font-size: 1.5vh;
     letter-spacing: 0.1vh;
     text-align: center;
-    margin: 10% auto 0 auto;
+    margin: 8% auto 0 auto;
   }
   body .controll .controll_block .slider .slider_slider {
     width: 66%;
-    height: 6%;
-    margin: 0.5% auto 0 auto;
+    height: 4%;
+    margin: 0.3% auto 0 auto;
     line-height: 100%;
     position: absolute;
     left: 50%;
@@ -336,14 +336,14 @@ body .controll .controll_power input:checked[type=checkbox]::before {
     height: 0.1vw;
   }
   body .controll .controll_block .slider .slider_slider #fader_first::-webkit-slider-thumb, body .controll .controll_block .slider .slider_slider #fader_second::-webkit-slider-thumb {
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 3vw;
+    height: 3vw;
   }
   body .controll .controll_block .slider_two .slider_title {
-    margin: 19% auto 0 auto;
+    margin: 14% auto 0 auto;
   }
   body .controll .controll_power {
-    height: 25%;
+    height: 30%;
   }
   body .controll .controll_power input[type=checkbox]::after {
     display: none;

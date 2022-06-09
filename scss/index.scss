@@ -336,12 +336,12 @@ body{
                         font-size: 1.5vh;
                         letter-spacing: 0.1vh;
                         text-align: center;
-                        margin: 10% auto 0 auto;
+                        margin: 8% auto 0 auto;
                     }
                     .slider_slider{
                         width: 66%;
-                        height: 6%;
-                        margin: 0.5% auto 0 auto;
+                        height: 4%;
+                        margin: 0.3% auto 0 auto;
                         line-height: 100%;
                         position: absolute;
                         left: 50%;
@@ -355,20 +355,20 @@ body{
                         #fader_first, #fader_second{
                             height: 0.1vw;
                             &::-webkit-slider-thumb{
-                                width: 1.5vw;
-                                height: 1.5vw;
+                                width: 3vw;
+                                height: 3vw;
                             }
                         }
                     }
                 }
                 .slider_two{
                     .slider_title{
-                        margin: 19% auto 0 auto;
+                        margin: 14% auto 0 auto;
                     }
                 }
             }
             .controll_power{
-                height: 25%;
+                height: 30%;
                 input[type="checkbox"]{
                     &::after{
                         display: none;
